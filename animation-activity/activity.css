@@ -16,6 +16,7 @@
   animation-name: bottom;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+  
 }
 
 nav {
@@ -29,7 +30,7 @@ nav {
 
 @keyframes top {
   from {}
-  to {}
+  to {rotate: 25deg;}
 }
 
 @keyframes middle {
